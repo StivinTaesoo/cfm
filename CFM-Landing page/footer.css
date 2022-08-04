@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: #1e91c7;
+    color: #fff;
+    overflow: hidden;
+}
+
+.footer h5, p {
+    margin: 2px;
+}
+
+.logo-container {
+    z-index: 3;
+}
+
+.icons a {
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.copyright a {
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.circle-borders1,
+.circle-borders2,
+.circle-borders3 {
+    position: absolute;
+    border: 2px solid rgb(39, 208, 238);
+    width: 30%;
+    border-radius: 50%;  
+}
+
+.circle-borders1::after,
+.circle-borders2::after,
+.circle-borders3::after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.circle-borders1 {
+    top: -50%;
+    left: -8%;
+}
+
+.circle-borders2 {
+    bottom: -48%;
+    right: -10%;
+}
+
+.circle-borders3 {
+    width: 26%;
+    bottom: -42%;
+    right: -8.5%;
+}
+
+/* ============================================ SVG Color filters ======================================== */
+.filter-green {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    
+}
+
+.filter-white {
+    filter: brightness(0) invert(1);
+}
+
+.filter-blue {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(196deg) brightness(118%) contrast(119%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

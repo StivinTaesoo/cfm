@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #aaeff8;
+}
+
+.ministries-container {
+    margin: 2rem auto;
+}
+
+.graphic-box {
+    width: 90%;
+}
+.graphic-box img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.graphic-box img:hover {
+    transform: none;
+}
+
+.white-base {
+    width: 90%;
+    height: 100px;
+    background: #ffffff;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    text-align: center;
+}
+
+/* ===================== Media Query ==================== */
+@media(max-width: 750px) {
+    .ministries-container {
+        flex-direction: column;
+    }
+
+    .box-container {
+        margin: 1rem auto;
+    }
+}

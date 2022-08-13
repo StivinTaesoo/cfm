@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .flex-col-sms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sms-width {
+    width: 90%;
+    padding: 0;
+  }
+
+  .cfm-hero-container {
+    height: 50vh;
+  }
+
+  .cfm-img-slider {
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    height: 40vh;
+  }
+
+  .cfm-img-slider h1 {
+    font-size: 8vmin;
+    width: 60%;
+  }
+
+  .cfm-center-banner {
+    height: 50px;
+  }
+
+  .empty-space {
+    width: 20%;
+  }
+
+  .cfm-video-container {
+    width: 80%;
+    margin-bottom: 0;
+  }
+  .cfm-video-container h2 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 8vmin;
+  }
+  .cfm-video-container p {
+    font-size: 3.5vmin;
+  }
+
+  /* =================== Live Stream Section ================== */
+  .live-stream-container {
+    width: 100%;
+    margin: 2rem auto 0;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    padding: 3rem 1rem;
+    border-top-right-radius: 5rem;
+    border-top-left-radius: 5rem;
+  }
+
+  .live-stream-container h2 {
+    font-weight: 600;
+  }
+
+  .audio-links {
+    padding: 1rem 0 0;
+    width: 90%;
+  }
+
+  .audio-wrapper {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .ministers-wrapper {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding: 0 0.5rem;
+    margin: 2rem auto;
+  }
+
+  .ministers-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn-custom {
+    width: 250px;
+    background: rgb(235, 12, 4);
+    color: #fff;
+    margin: 1.3rem 0;
+    z-index: 10;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .ministers-img-container {
+    width: 90%;
+    height: 300px;
+    /* background-color: yellow; */
+  }
+
+  .pstJay {
+    position: absolute;
+    right: -27%;
+  }
+  .rev {
+    left: -20%;
+    z-index: 15;
+  }
+
+  .web-banner {
+    width: 300px;
+    height: 120px;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .hidden-2 {
+    display: block;
+  }
+
+  .audio-links,
+  .ministers-wrapper,
+  .partnership-container {
+    flex-direction: column;
+  }
+
+  .ministers-img-container {
+    width: 90%;
+    margin: 2rem 1rem 1rem 3rem;
+  }
+
+  .bottom-cover {
+    width: 100%;
+    height: 100px;
+    background: #1e91c7;
+    position: absolute;
+    bottom: -5%;
+    left: -18%;
+    z-index: 2;
+  }
+
+  /* ------- Top-Left-Corner ------ */
+  .circle-borders7 {
+    top: -6%;
+    left: -20.5%;
+    width: 45%;
+    border: 1px solid #6cc7f1;
+  }
+  .circle-borders8 {
+    top: -6%;
+    left: -20%;
+    width: 41%;
+    border: 1px solid #6cc7f1;
+  }
+
+  /* ----- Top-right-Corner ----- */
+  .circle-borders9 {
+    top: -8%;
+    right: -30%;
+    width: 60%;
+    border: 1px solid #6cc7f1;
+  }
+
+  .circle-borders10 {
+    top: -8.8%;
+    right: -32.7%;
+    width: 58%;
+    border: 1px solid #6cc7f1;
+  }
+  /* ------- Thick-Layered-Borders ------ */
+  .circle-borders11 {
+    top: 65%;
+    right: -8.5%;
+    width: 80%;
+    border: 10px solid rgb(228, 243, 17);
+    /* border-bottom: 24px solid transparent; */
+  }
+
+  .circle-borders12 {
+    top: 62.8%;
+    right: -15%;
+    border: 10px solid rgb(252, 255, 255);
+    /* border-bottom: 10px solid transparent; */
+    width: 94%;
+  }
+  /* ------ Middle borders ------ */
+  .circle-borders13 {
+    top: 72%;
+    right: 16%;
+    width: 70%;
+    border: 2px solid rgb(228, 243, 17);
+    /* border-bottom: 1px solid transparent; */
+  }
+
+  .circle-borders14 {
+    top: 70%;
+    right: 10%;
+    width: 80%;
+    border: 2px solid rgb(255, 255, 255);
+    /* border-bottom: 4px solid transparent; */
+  }
+
+  /* ===================== Relevant Church ================== */
+  .blue-bg {
+    padding: 2rem 1rem;
+  }
+  .relevant-church-container {
+    width: 90%;
+    margin: 0 auto 2rem;
+    color: #000;
+    padding: 0;
+    text-align: center;
+  }
+
+  .the-future {
+    width: 95%;
+  }
+  .the-future h2 {
+    font-size: 10vmin;
+    margin-bottom: 0;
+  }
+
+  .the-future p {
+    font-size: 4vmin;
+  }
+
+  .video-wrapper {
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+  .resources {
+    margin: 1rem auto 2rem;
+    padding-top: 0;
+  }
+
+  /* ===================== Partnership ==================== */
+  .partnership-container {
+    min-height: 500px;
+    color: #fff;
+    position: relative;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .partnership-text {
+    margin: 2rem;
+    text-align: center;
+  }
+  .partnership-text h2 {
+    font-size: 8vmin;
+    font-weight: 700;
+  }
+  .partnership-img {
+    margin-top: 1rem;
+    position: relative;
+    width: 90%;
+    height: 250px;
+  }
+  .partners-image {
+    position: absolute;
+    z-index: 100;
+  }
+  .curve {
+    width: 50%;
+    position: absolute;
+    top: 2%;
+    left: -12%;
+    /* height: 300px; */
+  }
+
+  /* ---------------- Borders ---------------- */
+  .circle-borders15 {
+    bottom: -102%;
+    left: 10%;
+    width: 145%;
+    border: 20px solid rgb(250, 250, 250);
+    z-index: 1;
+  }
+  .circle-borders16 {
+    bottom: -95%;
+    left: 20%;
+    width: 130%;
+    border: 20px solid rgb(250, 246, 27);
+  }
+
+  /* =================== Testimony ================= */
+  .testimonies {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .testimony-container {
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .quotation1,
+  .quotation2 {
+    width: 25%;
+  }
+
+  /* ===================== Daily Scriptures ================== */
+  .scripture-text {
+    width: 90%;
+    text-align: center;
+  }
+  .scripture-text h2 {
+    font-size: 8vmin;
+  }
+
+  .scripture-img {
+    margin-top: 2rem;
+    width: 90%;
+  }
+  .scripture-img img {
+    width: 90%;
+  }
+}

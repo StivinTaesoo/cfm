@@ -1,103 +1,132 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Epilogue, sans-serif; */
+}
+
+p {
+  /* font-weight: 300; */
+  font-size: 14px;
+  margin: 1px;
 }
 
 .footer {
-    position: relative;
-    width: 100%;
-    background-color: #1e91c7;
-    color: #fff;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-color: #1e91c7;
+  color: #fff;
+  overflow: hidden;
+  padding: 3rem;
+  /* text-shadow: 0 0 1px #000; */
 }
 
-.footer h5, p {
-    margin: 2px;
+.footer h5 {
+  margin: 1px;
+  font-size: 15px;
 }
 
 .logo-container {
-    z-index: 3;
+  z-index: 3;
 }
 
 .icons a {
-    margin-right: 20px;
-    margin-top: 5px;
-    color: #fff;
+  margin-right: 20px;
+  margin-top: 5px;
+  color: #fff;
 }
 
 .copyright a {
-    display: inline-block;
-    margin-top: 2rem;
+  display: inline;
+  /* margin-top: 1rem; */
+  font-size: 13px;
+  z-index: 20;
 }
 
 .circle-borders1,
 .circle-borders2,
 .circle-borders3 {
-    position: absolute;
-    border: 2px solid rgb(39, 208, 238);
-    width: 30%;
-    border-radius: 50%;  
+  position: absolute;
+  border: 2px solid rgb(39, 208, 238);
+  width: 30%;
+  border-radius: 50%;
 }
 
 .circle-borders1::after,
 .circle-borders2::after,
 .circle-borders3::after {
-    content: '';
-    display: block;
-    padding-bottom: 100%;
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 .circle-borders1 {
-    top: -50%;
-    left: -8%;
+  top: -60%;
+  left: -10%;
 }
 
 .circle-borders2 {
-    bottom: -48%;
-    right: -10%;
+  bottom: -48%;
+  right: -10%;
 }
 
 .circle-borders3 {
-    width: 26%;
-    bottom: -42%;
-    right: -8.5%;
+  width: 26%;
+  bottom: -42%;
+  right: -8.5%;
 }
 
 /* ============================================ SVG Color filters ======================================== */
 .filter-green {
-    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
-    
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
 }
 
 .filter-white {
-    filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
 }
 
 .filter-blue {
-    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(196deg) brightness(118%) contrast(119%);
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(196deg)
+    brightness(118%) contrast(119%);
 }
 
+/* ==================== Media Query =================== */
+@media (max-width: 750px) {
+  .footer {
+    padding: 4rem 1rem;
+  }
 
+  .circle-borders1 {
+    width: 65%;
+    top: -8%;
+    left: -8%;
+    border: 1px solid #6cc7f1;
+  }
 
+  .circle-borders2 {
+    width: 70%;
+    bottom: -5%;
+    right: -17%;
+    border: 1px solid #6cc7f1;
+  }
 
+  .circle-borders3 {
+    width: 55%;
+    bottom: -2.5%;
+    right: -10%;
+    border: 1px solid #6cc7f1;
+  }
+  .copyright {
+    z-index: 20;
+  }
 
+  .groups {
+    margin: 2rem auto;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  hr {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

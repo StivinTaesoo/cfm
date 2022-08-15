@@ -28,7 +28,7 @@
   }
 
   .cfm-img-slider h1 {
-    font-size: 8vmin;
+    font-size: 7vmin;
     width: 60%;
   }
 
@@ -70,12 +70,12 @@
 
   .audio-links {
     padding: 1rem 0 0;
-    width: 90%;
+    width: 100%;
   }
 
   .audio-wrapper {
-    width: 85%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 1rem auto;
   }
 
   .ministers-wrapper {
@@ -105,7 +105,6 @@
   .ministers-img-container {
     width: 90%;
     height: 300px;
-    /* background-color: yellow; */
   }
 
   .pstJay {
@@ -137,7 +136,7 @@
 
   .ministers-img-container {
     width: 90%;
-    margin: 2rem 1rem 1rem 3rem;
+    margin: 3rem 1rem 1rem 3rem;
   }
 
   .bottom-cover {
@@ -180,18 +179,16 @@
   }
   /* ------- Thick-Layered-Borders ------ */
   .circle-borders11 {
-    top: 65%;
+    top: 67%;
     right: -8.5%;
     width: 80%;
     border: 10px solid rgb(228, 243, 17);
-    /* border-bottom: 24px solid transparent; */
   }
 
   .circle-borders12 {
-    top: 62.8%;
+    top: 64.8%;
     right: -15%;
     border: 10px solid rgb(252, 255, 255);
-    /* border-bottom: 10px solid transparent; */
     width: 94%;
   }
   /* ------ Middle borders ------ */
